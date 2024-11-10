@@ -10,18 +10,22 @@
     "express-session": "^1.18.1",
     "helmet": "^8.0.0",
     "hpp": "^0.2.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.4",
     "nodemon": "^3.1.7",
     "sequelize": "^6.37.5",
     "uid": "^2.0.2",
-    "use-strict": "^1.0.1"
+    "use-strict": "^1.0.1",
+    "winston": "^3.17.0"
   },
   "name": "mvc-layout",
   "version": "1.0.0",
   "description": "Application to understand MVC pattern",
-  "main": "app.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "MVC",
